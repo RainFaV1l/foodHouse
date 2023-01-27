@@ -135,11 +135,20 @@ select {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  cursor: pointer;
 }
 
-.menu-item#active {
+.menu-item:hover {
   background-color: var(--orange);
   color: #FFFFFF;
+}
+
+.menu-item svg path {
+  transition: all .3s ease-in-out;
+}
+
+.menu-item:hover svg path {
+  fill: #fff;
 }
 
 .header__link {
@@ -218,6 +227,10 @@ select {
   line-height: 14px;
 }
 
+.catalog__item .gray {
+  transition: all .3s ease-in-out;
+}
+
 .catalog__item:hover .gray {
   position: absolute;
   width: 100%;
@@ -235,4 +248,19 @@ select {
   background: #E9F8FB;
   border-radius: 100px;
   padding: 20px 72px;
+}
+
+.menu__header {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-items {
+  margin-top: 60px;
+}
+
+.catalog__button {
+  margin-bottom: 40px;
 }
