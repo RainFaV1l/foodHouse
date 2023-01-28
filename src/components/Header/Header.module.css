@@ -6,6 +6,8 @@
     align-items: center;
     color: #FE8C01;
     padding: 50px 0;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .header__logo {

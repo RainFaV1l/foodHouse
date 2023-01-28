@@ -119,6 +119,7 @@ select {
 
 .menu-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -136,6 +137,7 @@ select {
   align-items: center;
   gap: 15px;
   cursor: pointer;
+  transition: all .3s ease-in-out;
 }
 
 .menu-item:hover {
@@ -173,7 +175,7 @@ select {
 .catalog__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: stretch;
   gap: 30px;
 }

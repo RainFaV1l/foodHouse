@@ -10,6 +10,6 @@ export const menuItemsArray = [
 export const catalogItemsArray = [
     {id: 1, src: "img/catalog/item.jpg", name: "Салат “Греческий”", gram: 300, protein: 36, fat:11,  carbohydrate: 55, type:"salad"},
     {id: 2, src: "img/catalog/item-2.jpg", name: "Салат “Тропический”", gram: 100, protein: 35, fat:35,  carbohydrate: 110, type:"discount"},
-    {id: 3, src: "img/catalog/item.jpg", name: "Пицца “Японка”", gram: 100, protein: 35, fat:35,  carbohydrate: 110, type:"pizza"},
-    {id: 4, src: "img/catalog/item.jpg", name: "Салат “Собери Сам”", gram: 100, protein: 35, fat:35,  carbohydrate: 110, type:"salad"},
+    {id: 3, src: "img/catalog/item-3.jpg", name: "Пицца “Японка”", gram: 100, protein: 35, fat:35,  carbohydrate: 110, type:"pizza"},
+    {id: 4, src: "img/catalog/item-4.jpg", name: "Салат “Собери Сам”", gram: 100, protein: 35, fat:35,  carbohydrate: 110, type:"salad"},
 ];
